@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display</title>
+    <style>
+        /* div{
+          border : 1px solid red   ;
+          background-color: yellow;
+          margin : 25px ;
+          padding : 50px ;
+
+        } */
+         *{
+            margin : 0 ;
+            padding : 0 ;
+            box-sizing: border-box;
+          }
+        .box{
+            width :300 px ;
+            height : 300 px ;
+            background-color: yellow;
+            padding :100px ;
+        }
+
+        img{
+            margin : 10px ;
+
+        }
+        div{
+            border : 1px solid black;
+        }
+        .image2 {
+            position : relative ;
+            top : 50px ;
+
+        }
+        #img1{
+            float : right ;
+            
+        }
+
+
+        .box{
+            border : solid black 20px ;
+            /* overflow : auto ; */
+        }
+        .item{
+            width : 200px ;
+            height : 200px ;
+            margin : 50px ;
+            background-color: aquamarine;
+    
+            float : left ;
+        }
+    </style>
+</head>
+<body>
+
+    <div class ="box">
+        <h1>Welcome to Anime </h1>
+    </div>
+
+    <span> 
+        One Piece, Naruto , Dragon Ball , Bleach
+    </span>
+
+    <div class ="container">
+        <img src = "Screen534.png"
+        width = "300px"
+        height = "300px" />
+
+        <img class="image2" src = "Screen534.png"
+        width = "300px"
+        height = "300px" />
+
+        <img src = "Screen534.png"
+        width = "300px"
+        height = "300px" />
+    </div>
+
+    <div> 
+        <img id="img1" src ="Screen534.png"
+        height = "200px" />
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nobis doloremque repellat a obcaecati, qui illo maiores velit minima at?</p>
+    </div>
+
+
+
+    <div class ="box">
+        <div class ="item"> A</div>
+        <div class ="item"> B</div>
+        <div class ="item"> C</div>
+    </div>
+
+    
+    
+</body>
+</html>
